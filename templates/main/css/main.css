@@ -84,15 +84,6 @@ button,
 	line-height: 1;
 }
 
-input:focus,
-textarea:focus,
-select:focus,
-button:focus,
-.button:focus,
-.btn:focus
-{
-	/*box-shadow: none;*/
-}
 
 .checked
 {
@@ -224,10 +215,7 @@ button, .button
 }
 
 
-.popup_product
-{
-	/*background-color: rgb(var(--c-w));*/
-}
+
 .popup_product__grid
 {
 	display: grid;
@@ -401,6 +389,7 @@ form select.alert + label
 /* ------------------------ nav --------------------- */
 .logo
 {
+	margin-bottom: 30px;
 	display: block;
 	width: 110px;
     height: 7rem;
@@ -465,8 +454,7 @@ form select.alert + label
 	}
 }
 
-.cover__bg
-{}
+
 .cover__fill
 {
 	background-color: rgba(0,0,0,.5);
@@ -503,17 +491,12 @@ form select.alert + label
 	{
 		justify-content: right;
 	}
-	.cover__logo
-	{
-	}
+	
 	.cover__tel
 	{
 		display: none;
 	}
-	.cover__burger
-	{
-		/*display: none;*/
-	}
+	
 .cover__content
 {
 
@@ -562,13 +545,7 @@ form select.alert + label
 	grid-template-columns: repeat(2, 1fr);*/
 	grid-gap: 2rem;
 }
-.portfolio__item
-{
-	/*display: grid;
-	grid-gap: 1rem;
-	grid-template-rows: auto 1fr;
-	margin-right: 1px;*/
-}
+
 .portfolio__image_wrap
 {
 	overflow: hidden;
@@ -624,12 +601,7 @@ form select.alert + label
 
 
 /* ------------------------ slide --------------------- */
-.slick-list,
-.slick-track
-{
-	/*display: grid;
-	grid-auto-flow: column;*/
-}
+
 .slick-list > *,
 .slick-track > *
 {
@@ -695,10 +667,7 @@ form select.alert + label
 
 
 /* ------------------------ products --------------------- */
-.products
-{
-	/*background-color: rgb(var(--c-g),.25);*/
-}
+
 .products__tabs
 {
 	display: grid;
@@ -905,9 +874,7 @@ form select.alert + label
 {
 	padding: 1rem;
 }
-.gis__footer
-{
-}
+
 .gis__title
 {
 	font-size: var(--fz-3);
@@ -1168,9 +1135,7 @@ button.sending
 
 
 /* ------------------------ adventages --------------------- */
-.adventages
-{
-}
+
 .adventages__item
 {
 	display: grid;
@@ -1250,12 +1215,7 @@ button.sending
 	grid-row: 1 / 2;
 	grid-column: 3 / 4;
 }
-.chessNumLine__numLine
-{}
-.chessNumLine__num
-{}
-.chessNumLine__col
-{}
+
 .chessNumLine__scribble
 {
 	/*background-color: rgba(127,127,127,.5);*/
@@ -1333,10 +1293,7 @@ button.sending
 	max-width: 20rem;
 	margin: auto;
 }
-.chessNumLine__text
-{
 
-}
 .chessNumLine__title
 {
 	color: rgb(var(--c-3));
