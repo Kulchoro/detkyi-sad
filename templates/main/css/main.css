@@ -402,9 +402,8 @@ form select.alert + label
 .logo
 {
 	display: block;
-	width: 19rem;
+	width: 110px;
     height: 7rem;
-	background-image: url('../img/logo_new.png');
 	-webkit-background-size: contain;
 	background-size: contain;
 }
